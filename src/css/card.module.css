@@ -1,0 +1,57 @@
+.card {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 5px;
+  padding: 1.2em;
+  font-size: 12px;
+
+  display: grid;
+  gap: 1rem;
+}
+
+.cardTitle {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.cardIcon {
+  width: 1rem;
+  aspect-ratio: 1;
+}
+
+.cardProducts {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5em;
+  justify-content: space-between;
+}
+
+.cardProduct {
+  text-align: center;
+  width: 100%;
+  display: grid;
+  gap: 0.3em;
+}
+
+.cardProductImage {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #f2f3f7;
+}
+
+.cardProductImage img {
+  width: 80%;
+  aspect-ratio: 1;
+  object-fit: contain;
+  mix-blend-mode: darken;
+}
+
+.cardProductImage:hover {
+  transform: scale(1.5);
+  transition: transform 5s ease-in-out;
+}
+
+.cardProduct p {
+  color: rgb(63, 63, 63);
+}

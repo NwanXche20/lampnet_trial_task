@@ -1,0 +1,52 @@
+.box {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 10px;
+  padding: 1.5em;
+
+  display: grid;
+  gap: 2rem;
+}
+
+.boxTitle {
+  font-size: 1.8rem;
+  margin-bottom: 0.3rem;
+}
+
+.boxDesc {
+  font-size: 16px;
+  color: rgb(88, 88, 88);
+}
+
+.boxBottom {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.boxCard {
+  width: 100%;
+  text-align: center;
+  background-color: #f2f3f7;
+  border-radius: 5px;
+  padding: 1em;
+
+  display: grid;
+  gap: 2rem;
+}
+
+.boxImages {
+  width: 100%;
+  display: flex;
+  gap: 0.5em;
+}
+
+.boxImages img {
+  height: 5rem;
+  mix-blend-mode: darken;
+}
+
+.boxImages img:hover {
+  border-right: 1px solid rgb(47, 47, 47);
+  border-bottom: 1px solid rgb(47, 47, 47);
+}

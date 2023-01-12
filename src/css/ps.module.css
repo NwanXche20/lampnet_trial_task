@@ -1,0 +1,100 @@
+.productHeading {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.productTitle {
+  flex-shrink: 0;
+  font-size: 1.5rem;
+}
+
+.line {
+  background-color: rgb(221, 221, 221);
+  width: 100%;
+  height: 0.5rem;
+  border-radius: 5px;
+}
+
+.productMain {
+  width: 100%;
+  display: flex;
+  gap: 0.1em;
+}
+
+.mainLeft {
+  background-image: url(../assets/apparel-background.jpg);
+  /* background-image: ; */
+  background-size: cover;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3em 2em;
+}
+
+.mainDesc {
+  color: #fff;
+  font-weight: 400;
+}
+
+.mainButton {
+  background-color: #fff;
+  display: inline-block;
+  width: 50%;
+  padding: 1em;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.mainRight {
+  background-color: #fff;
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.mainCategory {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.3em;
+  padding-block: 1em 0;
+  padding-inline: 1em 0;
+  border: 1px solid #f2f3f7;
+}
+
+.categoryHeading,
+.categoryDesc {
+  width: 100%;
+  /* height: 2rem; */
+  display: flex;
+  align-items: center;
+  gap: 0.2em;
+}
+
+.categoryIcon,
+.categoryDescIcon {
+  width: 1.5rem;
+  aspect-ratio: 1;
+}
+
+.categoryProduct {
+  display: flex;
+  justify-content: space-between;
+}
+
+.categoryProduct > * {
+  width: 40%;
+}
+
+.categoryImage img {
+  aspect-ratio: 1;
+}
+
+.categoryImage img:hover {
+  transform: scale(1.02);
+}
