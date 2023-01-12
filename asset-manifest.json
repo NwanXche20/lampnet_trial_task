@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/lampnet_trial_task/static/css/main.12ed91c7.css",
+    "main.js": "/lampnet_trial_task/static/js/main.835dd551.js",
+    "static/media/logo1.png": "/lampnet_trial_task/static/media/logo1.4811fc1d773b39e47f5c.png",
+    "static/media/buyers-club1.jpg": "/lampnet_trial_task/static/media/buyers-club1.5686cb30a74ee29ec267.jpg",
+    "static/media/slider-image.png": "/lampnet_trial_task/static/media/slider-image.2581fe7d94ae41feb1e7.png",
+    "static/media/orders.png": "/lampnet_trial_task/static/media/orders.0db240fa27b6ffc59e90.png",
+    "static/media/camera.png": "/lampnet_trial_task/static/media/camera.806f44750de62e0667a8.png",
+    "static/media/product4.png": "/lampnet_trial_task/static/media/product4.a55f9d812f98d7b6dbc4.png",
+    "static/media/profile.png": "/lampnet_trial_task/static/media/profile.ee7eb6e9ac731fa1c4ea.png",
+    "index.html": "/lampnet_trial_task/index.html",
+    "main.12ed91c7.css.map": "/lampnet_trial_task/static/css/main.12ed91c7.css.map",
+    "main.835dd551.js.map": "/lampnet_trial_task/static/js/main.835dd551.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12ed91c7.css",
+    "static/js/main.835dd551.js"
+  ]
+}
